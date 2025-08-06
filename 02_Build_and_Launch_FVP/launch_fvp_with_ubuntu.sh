@@ -1,7 +1,7 @@
-#!/bin/bash
-
+# Launch FVP
 
 ```
+#!/bin/bash
 ROOT_DIR=$(pwd)
 WORKSPACE="rd-infra"
 WORKSPACE_PATH=$ROOT_DIR/$WORKSPACE
