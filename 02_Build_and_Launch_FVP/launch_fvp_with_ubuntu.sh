@@ -1,6 +1,7 @@
 # Launch FVP
 
 ```
+
 #!/bin/bash
 ROOT_DIR=$(pwd)
 WORKSPACE="rd-infra"
@@ -10,4 +11,5 @@ export DISTRO=ubuntu
 
 cd $WORKSPACE_PATH/model-scripts/rdinfra
 ./distro.sh -p rdn2 -d $ROOT_DIR/ubuntu.satadisk -n true -a "--parameter board.virtio_net.transport=modern --parameter disable_visualisation=true"
+
 ```
