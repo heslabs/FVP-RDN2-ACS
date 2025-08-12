@@ -1,4 +1,9 @@
-# infra_fvp_rdn2
+# FVP_RD_N2
+
+---
+
+* Neoverse N2 Reference Design FVP - FVP_RD_N2_11.25_23_Linux64.tgz
+   * https://developer.arm.com/-/cdn-downloads/permalink/FVPs-Neoverse-Infrastructure/RD-N2/FVP_RD_N2_11.25_23_Linux64.tgz
 
 ---
 ### Resource
@@ -12,18 +17,7 @@
 * RD-N2 Platform
     * https://neoverse-reference-design.docs.arm.com/en/latest/platforms/rdn2.html 
 
----
-### Arm Ecosystem FVPs
-
-* Arm Ecosystem FVPs
-   * https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms#Downloads
-* Corstone-1000 Ecosystem FVP - FVP_Corstone_700_11.22_35_Linux64.tgz
-   * https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms/IoT%20FVPs
-* Arm Corstone-1000 Platforms software stack 
-   * https://corstone1000.docs.arm.com/en/latest/
-* Arm Corstone-1000 Technical Overview
-   * https://developer.arm.com/documentation/102360/latest/
-
+ 
 ----
 ### Get started with the Neoverse Reference Design software stack
 https://neoverse-reference-design.docs.arm.com/en/latest/user_guides/learningpaths.html
