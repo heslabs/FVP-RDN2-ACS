@@ -150,7 +150,7 @@ Download the Arm GNU Toolchain - AArch64 bare-metal target (aarch64-none-elf)
 ```
 cd ~/systemready_workshop
 wget https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf.tar.xz
-tar –xf arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf.tar.xz
+tar -xf arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf.tar.xz
 ```
 
 
