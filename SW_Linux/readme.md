@@ -11,7 +11,7 @@ https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/distro_bo
 ---
 ### Build the platform software
 
-This section describes the procedure to build the platform firmware required to boot or install a linux distribution on Neoverse RD platforms. \
+This section describes the procedure to build the platform firmware required to boot or install a linux distribution on Neoverse RD platforms.
 To build the RD software stack, the command to be used is
 ```
 ./build-scripts/build-test-uefi.sh -p <platform name> <command>
