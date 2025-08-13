@@ -6,8 +6,8 @@
 Installing the software stack
 Create a folder and change directory to it
 ```
-$ mkdir –p ~/ systemready_workshop/rd-infra
-$ cd ~/systemready_workshop /rd-infra
+$ mkdir –p <fvp-rdn2>
+$ cd <fvp-rdn2>
 ```
 
 Please tell me who you are.
@@ -100,7 +100,7 @@ Installation completed successfully
 ### Building the software stack
 Modify the number of interrupts
 ```
-cd ~/systemready_workshop/rd-infra
+cd <fvp-rdn2>
 ```
 
 Modify the following in uefi/edk2/ArmPkg/Drivers/ArmGic/GicV3/ArmGicV3Dxe.c
@@ -137,7 +137,7 @@ To run the BSA exerciser tests make the following change in ~/systemready_worksh
 
 Download the BSA ACS
 ```
-cd ~/systemready_workshop
+cd <fvp-rdn2>
 mkdir bm_build
 cd bm_build
 git clone https://github.com/ARM-software/bsa-acs.git
@@ -145,7 +145,7 @@ git clone https://github.com/ARM-software/bsa-acs.git
 
 Download the Arm GNU Toolchain - AArch64 bare-metal target (aarch64-none-elf)
 ```
-cd ~/systemready_workshop
+cd <fvp-rdn2>
 wget https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf.tar.xz
 tar -xf arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf.tar.xz
 ```
@@ -157,7 +157,7 @@ tar -xf arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf.tar.xz
 Build the BSA ACS
 ```
 cd bm_build/bsa-acs/
-export CROSS_COMPILE=~/systemready_workshop/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
+export CROSS_COMPILE=<fvp-rdn2>/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
 mkdir build
 cd build/
 cmake ../ -G"Unix Makefiles" -DCROSS_COMPILE=$CROSS_COMPILE -DTARGET="RDN2”
@@ -176,8 +176,7 @@ make
 -- Build files have been written to: /home/demo/labs/infra/fvp-rdn2-2025.07.03/bm_build/bsa-acs/build
 ```
 
-On a successful build, *.bin, *.elf, .img and debug binaries are generated at build/output directory
-Users can override the default settings
+
 
 
 ```
@@ -192,11 +191,18 @@ Users can override the default settings
 [100%] Built target bsa_img
 ```
 
+On a successful build, *.bin, *.elf, .img and debug binaries are generated at build/output directory
+Users can override the default settings
 ```
-~/systemready_workshop/bm_build/bsa-acs/pal/baremetal/target/RDN2/common/include/platform_override_fvp.h
+<fvp-rdn2>/bm_build/bsa-acs/pal/baremetal/target/RDN2/common/include/platform_override_fvp.h
 ```
 For example, the print level
 
+```
+* Settings */
+#define PLATFORM_OVERRIDE_PRINT_LEVEL  0x3     //The permissible levels are 1,2,3,4 and 5
+#define PLATFORM_OVERRIDE_BSA_LEVEL    0x1    // The permissible levels are only 1
+```
 
 ---
 ### Baremetal - Running the ACS
