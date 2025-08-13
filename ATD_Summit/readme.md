@@ -43,12 +43,14 @@ The RD N2 software stack integrates multiple software components
 
 Set up the build environment before building the software stack
 
-Using Host Environment: Installing prerequisite on your Linux host
+#### Using Host Environment
+Installing prerequisite on your Linux host
+
 ```
 $ ./build-scripts/rdinfra/install_prerequisites.sh
 ```
 
-Using Docker to get your environment clean
+#### Using Docker to get your environment clean
 Build the docker image
 ```
 $ ./container-scripts/container.sh build
