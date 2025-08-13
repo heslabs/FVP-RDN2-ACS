@@ -62,5 +62,15 @@ Command to start the execution of the RD-N2 model to boot up to the Busybox prom
 ```
 cd model-scripts/rdinfra
 ./boot.sh -p <platform name> -a <additional_params> -n [true|false]
+./boot.sh -p rdn2
 ./boot.sh -p rdn2 -n true
+./boot.sh -p rdn2 -n true -a "-C board.flash0.diagnostics=1"
 ```
+
+Please input a unique bridge interface name for network setup 
+```
+cx9: enp3s0
+cx7: wlo1
+```
+
+
