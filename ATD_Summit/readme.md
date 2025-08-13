@@ -351,6 +351,9 @@ The result is allocated at /mnt/bsa/acs.txt
 ---
 <img width="900" height="759" alt="image" src="https://github.com/user-attachments/assets/294f0758-dbd0-490f-a75b-beb47a8c72e9" />
 
+---
+<img width="900" height="616" alt="image" src="https://github.com/user-attachments/assets/854657d9-74f5-4a28-86bd-f8429f334319" />
+
 
 ---
 
@@ -358,6 +361,9 @@ The result is allocated at /mnt/bsa/acs.txt
 
 ---
 <img width="900" height="616" alt="image" src="https://github.com/user-attachments/assets/bbbd5bc8-fd80-47fe-9dad-2016c23180df" />
+
+---
+<img width="1000" height="1123" alt="image" src="https://github.com/user-attachments/assets/bb421d41-046f-468a-ba8f-b062d9199745" />
 
 ---
 <img width="900" height="616" alt="image" src="https://github.com/user-attachments/assets/538c9ea3-10b8-46f5-9727-8788f49e1e67" />
