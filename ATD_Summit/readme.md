@@ -237,7 +237,7 @@ In build-scripts/build-target-bins.sh, replace uefi.bin with acs_latest.bin:
 ### Run the BSA ACS Tests
 
 ```
-export MODEL=<fv-rdn2>/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
+export MODEL=<fvp-rdn2>/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 cd model-scripts/rdinfra/platforms/rdn2
 ./run_model.sh
 ```
