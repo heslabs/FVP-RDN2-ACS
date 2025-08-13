@@ -84,6 +84,13 @@ cd model-scripts/rdinfra
 ./distro.sh -p rdn2 -i <absolute/path/to/iso> -s 16
 ```
 
+Example boot script
+```
+export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 && \
+    cd model-scripts/rdinfra && \
+    ./distro.sh -p rdn2 -i $(WORKDIR)/images/ubuntu-24.04.3-live-server-arm64.iso -s 16
+```
+
 * This command creates a 16GB SATA disk image, boots the selected platform software stack and starts the installation process.
 * From here on, follow the instructions of the chosen distribution installer. For more information about the installation procedure, refer online installation manuals of the chosen distribution.
 * After the installation is complete, a disk image with a random name <number>.satadisk will be created in model-scripts/rdinfra/ folder. Use this disk image for booting the installed distribution.
