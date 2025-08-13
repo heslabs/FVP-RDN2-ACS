@@ -55,7 +55,7 @@ cd model-scripts/rdinfra
 ```
 
 ---
-### Install a Linux Distribution
+### Install a Linux Distribution
 
 After the build of the platform software stack is complete, a distribution can be installed into a SATA disk image. Before beginning the installation process, download the CD iso image of the required distribution version. See below Linux distributions downloads pages:
 
