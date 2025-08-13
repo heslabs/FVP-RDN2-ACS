@@ -366,7 +366,14 @@ The result is allocated at /mnt/bsa/acs.txt
 <img width="1000" height="1123" alt="image" src="https://github.com/user-attachments/assets/bb421d41-046f-468a-ba8f-b062d9199745" />
 
 ---
-<img width="900" height="616" alt="image" src="https://github.com/user-attachments/assets/538c9ea3-10b8-46f5-9727-8788f49e1e67" />
+
+<img width="1000" height="1123" alt="image" src="https://github.com/user-attachments/assets/af5cce3a-cd42-4285-a683-03605190bb3a" />
+
+---
+<img width="1000" height="1123" alt="image" src="https://github.com/user-attachments/assets/9fbe031f-25be-41f2-b840-1bd95c638f86" />
+
+---
+<img width="1000" height="1123" alt="image" src="https://github.com/user-attachments/assets/ce2e500c-bfcc-497f-8b2c-37413f143a4b" />
 
 
 ---
