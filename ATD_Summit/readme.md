@@ -329,6 +329,41 @@ The result is allocated at /mnt/bsa/acs.txt
 
 
 ---
+
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/4871d3ab-07df-424f-afe2-054fb10fd88d" />
+
+---
+<img width="600"  alt="image" src="https://github.com/user-attachments/assets/53068ff7-3f85-4f34-9d58-05dcaab534b5" />
+
+---
+<img width="600"  alt="image" src="https://github.com/user-attachments/assets/5b00b7c7-6533-4bd5-ac29-f858bce64aa8" />
+
+---
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/f504ccf7-0c30-4779-a622-9815c8616b9a" />
+
+
+---
+<img width="600" height="369" alt="image" src="https://github.com/user-attachments/assets/68762870-015e-49c8-9605-f303ee6b0dd6" />
+
+---
+<img width="600" height="343" alt="image" src="https://github.com/user-attachments/assets/06f3e5f8-9693-467f-9daf-a02cf95c46f3" />
+
+---
+<img width="900" height="759" alt="image" src="https://github.com/user-attachments/assets/294f0758-dbd0-490f-a75b-beb47a8c72e9" />
+
+
+---
+
+<img width="900" height="707" alt="image" src="https://github.com/user-attachments/assets/1f5b2e1f-b191-44c0-b8ff-21e272218b59" />
+
+---
+<img width="900" height="616" alt="image" src="https://github.com/user-attachments/assets/bbbd5bc8-fd80-47fe-9dad-2016c23180df" />
+
+---
+<img width="900" height="616" alt="image" src="https://github.com/user-attachments/assets/538c9ea3-10b8-46f5-9727-8788f49e1e67" />
+
+
+---
 ### Resource
 
  
