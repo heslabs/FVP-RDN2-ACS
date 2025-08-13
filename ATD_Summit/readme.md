@@ -164,6 +164,18 @@ cmake ../ -G"Unix Makefiles" -DCROSS_COMPILE=$CROSS_COMPILE -DTARGET="RDN2”
 make
 ```
 
+```
+-- [ACS] : ACS is set to bsa
+-- [ACS] : TARGET is set to RDN2
+-- [ACS] : Defaulting ARM_ARCH_MAJOR to 9
+-- [ACS] : Defaulting ARM_ARCH_MINOR to 0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/demo/labs/infra/fvp-rdn2-2025.07.03/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-gcc
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/demo/labs/infra/fvp-rdn2-2025.07.03/bm_build/bsa-acs/build
+```
+
 On a successful build, *.bin, *.elf, .img and debug binaries are generated at build/output directory
 Users can override the default settings
 ```
