@@ -318,7 +318,7 @@ cd model-scripts/rdinfra/platforms/rdn2
 Select ‘Boot Manager’
 Select ’UEFI Shell’
 In the UEFI shell, input ’FS2:’
-Input ‘Bsa.efi –f acs.txt’
+Input ‘Bsa.efi -f acs.txt’
 ```
 
 #### Get the ACS result
