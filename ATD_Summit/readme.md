@@ -244,6 +244,11 @@ cd model-scripts/rdinfra/platforms/rdn2
 
 The logs can be found in <fvp-rd-n2>/rd-infra/model-scripts/rdinfra/platforms/rdn2/rdn2/
 
+
+---
+
+<img width="2686" height="1596" alt="image" src="https://github.com/user-attachments/assets/41f53fdf-8bfe-4444-8a06-2de136650803" />
+
  
 ---
 ### UEFI - EDK2 setup and ACS Compilation
