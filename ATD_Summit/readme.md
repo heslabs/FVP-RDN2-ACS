@@ -10,9 +10,15 @@ $ mkdir –p ~/ systemready_workshop/rd-infra
 $ cd ~/systemready_workshop /rd-infra
 ```
 
+Please tell me who you are.
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 Initialize and sync the source code
 ```
-$ apt install repo
+$ sudo apt install repo
 $ repo init -u https://git.gitlab.arm.com/infra-solutions/reference-design/infra-refdesign-manifests.git -m pinned-rdn2.xml -b refs/tags/RD-INFRA-2025.02.04 --depth=1
 $ repo sync -c -j $(nproc) --fetch-submodules --force-sync --no-clone-bundle
 ```
