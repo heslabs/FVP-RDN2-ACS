@@ -395,11 +395,11 @@ refinfra-1615768-uart-0-scp.log
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/f9aaf06d-36b7-4dbf-8546-f3a2f03e5cb6" />
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/9a4d347a-8a16-4d8b-9406-722ae3d315c8" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/9a4d347a-8a16-4d8b-9406-722ae3d315c8" />
 
 ---
 refinfra-1615768-uart-0-sec.log
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/99ce004e-f5ea-4b02-9134-59fc5497e755" />
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/78e6514f-e88f-4385-8e4c-4148d1155872" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/78e6514f-e88f-4385-8e4c-4148d1155872" />
