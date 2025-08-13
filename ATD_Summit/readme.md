@@ -64,6 +64,10 @@ $ ./container-scripts/container.sh run -v ~/rd-infra
 
 ---
 ### Downloading the Reference Model – RD N2
+
+FVP Release page: \
+https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms/Infrastructure%20FVPs
+
 Download the latest version of RD N2 FVP
 ```
 wget https://developer.arm.com/-/media/Arm%20Developer%20Community/Downloads/OSS/FVP/Neoverse-N2/FVP_RD_N2_11.25_23_Linux64.tgz
