@@ -208,9 +208,10 @@ For example, the print level
 ### Baremetal - Running the ACS
 
 Repackage the FIP image with bsa.bin
+
 ```
-cp output/bsa.bin ~/systemready_workshop/rd-infra/output/rdn2/components/css-common/acs_latest.bin
-cd ~/systemready_workshop/rd-infra/
+cd <fvp-rdn2>
+cp ./bm_build/bsa-acs/build/output/bsa.bin ./output/rdn2/components/css-common/acs_latest.bin
 ```
 
 In build-scripts/build-target-bins.sh, replace uefi.bin with acs_latest.bin:
@@ -228,19 +229,20 @@ In build-scripts/build-target-bins.sh, replace uefi.bin with acs_latest.bin:
   ${PLATDIR}/${!target_name}/fip-uefi.bin
 ```
 
- 
+#### Build BSA ACS tests
 ```
 ./build-scripts/rdinfra/build-test-acs.sh -p rdn2 package
 ```
 
-Run the BSA ACS
+### Run the BSA ACS Tests
+
 ```
+export MODEL=<fv-rdn2>/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 cd model-scripts/rdinfra/platforms/rdn2
-export MODEL=~/systemready_workshop/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 ./run_model.sh
 ```
 
-The logs can be found in ~/systemready_workshop/rd-infra/model-scripts/rdinfra/platforms/rdn2/rdn2/
+The logs can be found in <fvp-rd-n2>/rd-infra/model-scripts/rdinfra/platforms/rdn2/rdn2/
 
  
 ---
@@ -248,7 +250,7 @@ The logs can be found in ~/systemready_workshop/rd-infra/model-scripts/rdinfra/p
 
 Download EDK2 and EDK2 port of libc
 ```
-cd ~/systemready_workshop
+cd <fvp-rdn2>
 mkdir uefi_build
 cd uefi_build
 git clone –recursive –branch edk2-stable202411 https://github.com/tianocore/edk2.git
@@ -257,7 +259,7 @@ git clone https://github.com/tianocore/edk2-libc.git edk2/edk2-libc
 
 Download the Arm GNU Toolchain - AArch64 GNU/Linux target (aarch64-none-linux-gnu)
 ```
-cd ~/systemready_workshop
+cd <fvp-rdn2>
 wget https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
 tar –xf arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
 ```
@@ -282,7 +284,7 @@ The EFI executable file is generated at Build/Shell/DEBUG_GCC49/AARCH64/Bsa.efi
 
 Create an image file which contains the 'Bsa.efi' file
 ```
-cd ~/systemready_workshop/uefi_build
+cd <fvp-rdn2>/uefi_build
 mkfs.vfat -C -n HD0 hda.img 2097152
 sudo mkdir /mnt/bsa
 sudo mount hda.img /mnt/bsa
@@ -295,7 +297,7 @@ sudo umount /mnt/bsa
 
 Run the BSA ACS
 ```
-cd ~/systemready_workshop/rd-infra/
+cd <fvp-rdn2>
 ```
 
 Recover build-scripts/build-target-bins.sh - replace acs_latest.bin with uefi.bin
@@ -315,7 +317,7 @@ Input ‘Bsa.efi –f acs.txt’
 
 Get the ACS result
 ```
-sudo mount ~/systemready_workshop/uefi_build/hda.img /mnt/bsa
+sudo mount <fvp-rdn2>/uefi_build/hda.img /mnt/bsa
 ```
 The result is allocated at /mnt/bsa/acs.txt
 
