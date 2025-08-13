@@ -267,7 +267,12 @@ The logs can be found in <fvp-rd-n2>/rd-infra/model-scripts/rdinfra/platforms/rd
 ---
 <img width="1008" height="760" alt="image" src="https://github.com/user-attachments/assets/e1951ef2-bdfd-4b52-ad8d-d4d24914d503" />
 
- 
+
+---
+
+<img width="1608" height="1319" alt="image" src="https://github.com/user-attachments/assets/5e9425ea-f839-45af-b2ad-2b3bf76d44c6" />
+
+
 ---
 ### UEFI - EDK2 setup and ACS Compilation
 
@@ -373,5 +378,23 @@ The result is allocated at /mnt/bsa/acs.txt
 
 
 
+---
+refinfra-1615768-uart-0-mcp.log
 
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/168ba22e-6572-4af6-8895-8dc1840fc295" />
+
+---
+refinfra-1615768-uart-0-nsec.log
+
+<img width="600"  alt="image" src="https://github.com/user-attachments/assets/ca1d94e7-ae1d-4c9a-855b-124f5a5b8b9b" />
+
+---
+refinfra-1615768-uart-0-scp.log
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/707ab541-e36b-4065-a413-1cc3d018a786" />
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/f9aaf06d-36b7-4dbf-8546-f3a2f03e5cb6" />
+
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9a4d347a-8a16-4d8b-9406-722ae3d315c8" />
 
