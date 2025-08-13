@@ -56,7 +56,7 @@ Build the docker image
 $ ./container-scripts/container.sh build
 ```
 
-Successfully tagged rdinfra-builder:latest
+Successfully tagged rdinfra-builder:latest \
 Start the container with the rd-infra folder mounted.
 ```
 $ ./container-scripts/container.sh run -v ~/rd-infra
