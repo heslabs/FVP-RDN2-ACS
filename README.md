@@ -13,7 +13,7 @@
    *  https://github.com/ARM-software/arm-systemready/tree/main/SystemReady-band#verification-on-arm-neoverse-n2-reference-design
 * Neoverse Reference Design Platform Software - RD-N2  
    * https://neoverse-reference-design.docs.arm.com/en/latest/platforms/rdn2.html    
-* Boot Linux OS   
+* FVP_RD_N2 - Boot Linux OS   
    * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/distro_boot.html#distro-boot
 
 
