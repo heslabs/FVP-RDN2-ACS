@@ -325,6 +325,7 @@ sudo mount <fvp-rdn2>/uefi_build/hda.img /mnt/bsa
 ```
 The result is allocated at /mnt/bsa/acs.txt
 
+
 ---
 ### Resource
 
@@ -342,14 +343,14 @@ The result is allocated at /mnt/bsa/acs.txt
 * To attain SBSA compliance, it is necessary to execute both BSA and SBSA ACS tests.
 
 #### Which Exception level should the tests run at?
-* The SBSA and BSA describe requirements on hardware and obligations on hypervisors and operating
-systems. Because of this, the ACS is expected to run at Non-secure EL2.
+* The SBSA and BSA describe requirements on hardware and obligations on hypervisors and operating systems. Because of this, the ACS is expected to run at Non-secure EL2.
 
 #### What needs to be done  
-https://github.com/ARM-software/sbsa-acs/blob/master/docs/Arm_SBSA_ACS_Bare-metal_User_Guide.pdf
+* https://github.com/ARM-software/sbsa-acs/blob/master/docs/arm_sbsa_architecture_compliance_bare-metal_user_guide.pdf
 
 #### For information on implementing the Exerciser PAL APIs, please refer  
-https://github.com/ARM-software/sbsa-acs/blob/master/docs/Exerciser_porting_guide.md
+* https://github.com/ARM-software/sbsa-acs/tree/master/docs/PCIe_Exerciser
+* https://github.com/ARM-software/sbsa-acs/blob/master/docs/PCIe_Exerciser/Exerciser_API_porting_guide.md
 
 
 
