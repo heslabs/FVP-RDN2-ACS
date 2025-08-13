@@ -377,6 +377,15 @@ The result is allocated at /mnt/bsa/acs.txt
 
 
 ---
+
+<img width="1200" height="734" alt="image" src="https://github.com/user-attachments/assets/0dd873e1-8c95-418a-aa1c-9df0b947e3df" />
+
+---
+
+<img width="1200" height="734" alt="image" src="https://github.com/user-attachments/assets/3d6b5987-2c40-4e70-9236-ba12c3ff989e" />
+
+
+---
 ### Resource
 
  
