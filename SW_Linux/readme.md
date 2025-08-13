@@ -1,4 +1,4 @@
-# Distro Boot
+# Linux Distro Boot
 https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/distro_boot.html
 
 * Neoverse Reference Design (RD) platform software stack supports boot of various linux distributions such as Debian, Ubuntu or Fedora.
