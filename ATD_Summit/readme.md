@@ -69,6 +69,10 @@ Download the latest version of RD N2 FVP
 wget https://developer.arm.com/-/media/Arm%20Developer%20Community/Downloads/OSS/FVP/Neoverse-N2/FVP_RD_N2_11.25_23_Linux64.tgz
 ```
 
+```
+wget https://developer.arm.com/-/cdn-downloads/permalink/FVPs-Neoverse-Infrastructure/RD-N2/FVP_RD_N2_11.25_23_Linux64.tgz
+```
+
 FVP Release page: Infrastructure FVPs  
 ```
 https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms/Infrastructure%20FVPs 
