@@ -13,10 +13,12 @@
    *  https://github.com/ARM-software/arm-systemready/tree/main/SystemReady-band#verification-on-arm-neoverse-n2-reference-design
 * Neoverse Reference Design Platform Software - RD-N2  
    * https://neoverse-reference-design.docs.arm.com/en/latest/platforms/rdn2.html    
-* FVP_RD_N2 - Boot Linux OS   
+* FVP_RD_N2: Boot Linux OS   
    * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/distro_boot.html#distro-boot
-
-
+* FVP_RD_N2: Busybox Boot
+   * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/busybox_boot.html
+ 
+     
 ---
 
 * Neoverse N2 Reference Design FVP - FVP_RD_N2_11.25_23_Linux64.tgz
