@@ -40,6 +40,7 @@ Command to perform an incremental build of the software stack:
 
 The cloud images for Debian can be obtained from the Debian cloud images page. A number of images listed by codename, along with the daily builds of the latest release version are available on this page.
 
+Debian cloud images page: https://cloud.debian.org/images/cloud/
 
 As an example, to download the image navigate as follows:
 ```
@@ -57,6 +58,11 @@ cd model-scripts/rdinfra
 ### Install a Linux Distribution
 
 After the build of the platform software stack is complete, a distribution can be installed into a SATA disk image. Before beginning the installation process, download the CD iso image of the required distribution version. See below Linux distributions downloads pages:
+
+Linux distributions downloads pages
+* Ubuntu: https://ubuntu.com/download/server/arm
+* Debian: https://www.debian.org/distrib/netinst
+* Fedora: https://alt.fedoraproject.org/alt
 
 Select an image for the aarch64 architecture. Which can also be named arm64. \
 The generic command to perform the installation is:
