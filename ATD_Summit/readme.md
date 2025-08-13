@@ -250,27 +250,6 @@ The logs can be found in <fvp-rd-n2>/rd-infra/model-scripts/rdinfra/platforms/rd
 <img width="2686" height="1596" alt="image" src="https://github.com/user-attachments/assets/41f53fdf-8bfe-4444-8a06-2de136650803" />
 
 
----
-
-<img width="882" height="695" alt="image" src="https://github.com/user-attachments/assets/bcf08f35-e9a0-45f0-98a4-0570d0b46032" />
-
----
-<img width="512" height="735" alt="image" src="https://github.com/user-attachments/assets/523df86e-0445-402e-b912-cb9eb8978c1a" />
-
----
-<img width="1290" height="903" alt="image" src="https://github.com/user-attachments/assets/259543c8-97de-4185-8169-4f97b30a4ce6" />
-
-
----
-<img width="1032" height="721" alt="image" src="https://github.com/user-attachments/assets/cf5bac0f-52a4-4865-95bb-b0e77354df58" />
-
----
-<img width="1008" height="760" alt="image" src="https://github.com/user-attachments/assets/e1951ef2-bdfd-4b52-ad8d-d4d24914d503" />
-
-
----
-
-<img width="1608" height="1319" alt="image" src="https://github.com/user-attachments/assets/5e9425ea-f839-45af-b2ad-2b3bf76d44c6" />
 
 
 ---
@@ -403,3 +382,25 @@ refinfra-1615768-uart-0-sec.log
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/99ce004e-f5ea-4b02-9134-59fc5497e755" />
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/78e6514f-e88f-4385-8e4c-4148d1155872" />
+
+---
+
+<img width="882" height="695" alt="image" src="https://github.com/user-attachments/assets/bcf08f35-e9a0-45f0-98a4-0570d0b46032" />
+
+---
+<img width="512" height="735" alt="image" src="https://github.com/user-attachments/assets/523df86e-0445-402e-b912-cb9eb8978c1a" />
+
+---
+<img width="1290" height="903" alt="image" src="https://github.com/user-attachments/assets/259543c8-97de-4185-8169-4f97b30a4ce6" />
+
+
+---
+<img width="1032" height="721" alt="image" src="https://github.com/user-attachments/assets/cf5bac0f-52a4-4865-95bb-b0e77354df58" />
+
+---
+<img width="1008" height="760" alt="image" src="https://github.com/user-attachments/assets/e1951ef2-bdfd-4b52-ad8d-d4d24914d503" />
+
+
+---
+
+<img width="1608" height="1319" alt="image" src="https://github.com/user-attachments/assets/5e9425ea-f839-45af-b2ad-2b3bf76d44c6" />
