@@ -33,6 +33,10 @@ $ repo sync -c -j $(nproc) --fetch-submodules --force-sync --no-clone-bundle
 ```
 
 ---
+
+<img width="818" height="627" alt="image" src="https://github.com/user-attachments/assets/51ce3c5e-2992-4e49-b272-688b81e74e76" />
+
+---
 ### Set up the build environment
 
 Set up the build environment before building the software stack
