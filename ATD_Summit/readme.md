@@ -345,10 +345,10 @@ The result is allocated at /mnt/bsa/acs.txt
 * The SBSA and BSA describe requirements on hardware and obligations on hypervisors and operating
 systems. Because of this, the ACS is expected to run at Non-secure EL2.
 
-#### What needs to be done \
+#### What needs to be done  
 https://github.com/ARM-software/sbsa-acs/blob/master/docs/Arm_SBSA_ACS_Bare-metal_User_Guide.pdf
 
-#### For information on implementing the Exerciser PAL APIs, please refer \
+#### For information on implementing the Exerciser PAL APIs, please refer  
 https://github.com/ARM-software/sbsa-acs/blob/master/docs/Exerciser_porting_guide.md
 
 
