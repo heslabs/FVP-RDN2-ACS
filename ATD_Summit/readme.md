@@ -182,11 +182,7 @@ export MODEL=~/systemready_workshop/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 
 The logs can be found in ~/systemready_workshop/rd-infra/model-scripts/rdinfra/platforms/rdn2/rdn2/
 
-
-
----
  
-
 
 
 
