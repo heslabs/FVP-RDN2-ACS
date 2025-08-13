@@ -178,6 +178,20 @@ make
 
 On a successful build, *.bin, *.elf, .img and debug binaries are generated at build/output directory
 Users can override the default settings
+
+
+```
+[ 98%] Generating bsa.elf
+/home/demo/labs/infra/fvp-rdn2-2025.07.03/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-ld: warning: /home/demo/labs/infra/fvp-rdn2-2025.07.03/bm_build/bsa-acs/build/output//bsa.elf has a LOAD segment with RWX permissions
+[ 98%] Built target bsa_elf
+[ 99%] Generating bsa.dump
+[ 99%] Built target bsa_dump
+[ 99%] Generating bsa.bin
+[ 99%] Built target bsa_bin
+[100%] Generating bsa.img
+[100%] Built target bsa_img
+```
+
 ```
 ~/systemready_workshop/bm_build/bsa-acs/pal/baremetal/target/RDN2/common/include/platform_override_fvp.h
 ```
