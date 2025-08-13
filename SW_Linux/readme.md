@@ -3,7 +3,7 @@ https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/distro_bo
 
 * Neoverse Reference Design (RD) platform software stack supports boot of various linux distributions such as Debian, Ubuntu or Fedora.
 * This can be achieved either by using a pre-installed (raw) image of the distribution or performing an installation from an iso image.
-* The prefered method is to use the pre-installed images as greatly reduces the time needed to validate that the software stack can boot into Linux.
+* The prefered method is to **use the pre-installed images** as greatly reduces the time needed to validate that the software stack can boot into Linux.
 * An installation from an iso image can take several hours, and will vary greatly with the hardware used, but even on modern hardware can be around 8 hours.
 * Regardless of the approach selected, the common step is to build the software stack as mentioned below in Build the platform software.
 
