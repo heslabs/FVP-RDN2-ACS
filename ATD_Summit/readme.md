@@ -329,7 +329,27 @@ The result is allocated at /mnt/bsa/acs.txt
 ### Resource
 
  
+#### Where to get the ACS?
+* It is available for download from the following Github repository:
+* https://github.com/ARM-software/bsa-acs
+* https://github.com/ARM-software/sbsa-acs
 
+#### Version of latest ACS
+* BSA ACS: v25.03_REL1.1.0
+* SBSA ACS: v25.03_REL7.2.2
+
+#### Compliance requirement for SBSA ACS
+* To attain SBSA compliance, it is necessary to execute both BSA and SBSA ACS tests.
+
+#### Which Exception level should the tests run at?
+* The SBSA and BSA describe requirements on hardware and obligations on hypervisors and operating
+systems. Because of this, the ACS is expected to run at Non-secure EL2.
+
+#### What needs to be done \
+https://github.com/ARM-software/sbsa-acs/blob/master/docs/Arm_SBSA_ACS_Bare-metal_User_Guide.pdf
+
+#### For information on implementing the Exerciser PAL APIs, please refer \
+https://github.com/ARM-software/sbsa-acs/blob/master/docs/Exerciser_porting_guide.md
 
 
 
