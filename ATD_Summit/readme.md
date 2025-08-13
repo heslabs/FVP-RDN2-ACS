@@ -23,6 +23,15 @@ $ repo init -u https://git.gitlab.arm.com/infra-solutions/reference-design/infra
 $ repo sync -c -j $(nproc) --fetch-submodules --force-sync --no-clone-bundle
 ```
 
+* infra-refdesign-manifests
+   * https://git.gitlab.arm.com/infra-solutions/reference-design/infra-refdesign-manifests
+
+```
+$ sudo apt install repo
+$ repo init -u https://git.gitlab.arm.com/infra-solutions/reference-design/infra-refdesign-manifests.git -m pinned-rdn2.xml -b refs/tags/RD-INFRA-2025.07.03 --depth=1
+$ repo sync -c -j $(nproc) --fetch-submodules --force-sync --no-clone-bundle
+```
+
 ---
 ### Set up the build environment
 
