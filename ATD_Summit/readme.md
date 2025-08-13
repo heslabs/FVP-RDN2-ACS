@@ -183,6 +183,86 @@ export MODEL=~/systemready_workshop/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 The logs can be found in ~/systemready_workshop/rd-infra/model-scripts/rdinfra/platforms/rdn2/rdn2/
 
  
+---
+### UEFI - EDK2 setup and ACS Compilation
+
+Download EDK2 and EDK2 port of libc
+```
+cd ~/systemready_workshop
+mkdir uefi_build
+cd uefi_build
+git clone –recursive –branch edk2-stable202411 https://github.com/tianocore/edk2.git
+git clone https://github.com/tianocore/edk2-libc.git edk2/edk2-libc
+```
+
+Download the Arm GNU Toolchain - AArch64 GNU/Linux target (aarch64-none-linux-gnu)
+```
+cd ~/systemready_workshop
+wget https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+tar –xf arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+```
+
+Build the BSA ACS - UEFI Shell application
+```
+cd uefi_build/edk2
+git submodule update --init --recursive
+git clone https://github.com/ARM-software/bsa-acs.git ShellPkg/Application/bsa-acs
+git apply ShellPkg/Application/bsa-acs/patches/edk2_bsa_acpi.patch
+export GCC49_AARCH64_PREFIX=~/systemready_workshop/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
+export PACKAGES_PATH=~/systemready_workshop/uefi_build/edk2/edk2-libc/
+source edksetup.sh
+make -C BaseTools/Source/C
+source ShellPkg/Application/bsa-acs/tools/scripts/acsbuild.sh
+```
+
+The EFI executable file is generated at Build/Shell/DEBUG_GCC49/AARCH64/Bsa.efi
+
+---
+### UEFI - Image creation
+
+Create an image file which contains the 'Bsa.efi' file
+```
+cd ~/systemready_workshop/uefi_build
+mkfs.vfat -C -n HD0 hda.img 2097152
+sudo mkdir /mnt/bsa
+sudo mount hda.img /mnt/bsa
+sudo cp edk2/Build/Shell/DEBUG_GCC49/AARCH64/Bsa.efi /mnt/bsa/
+sudo umount /mnt/bsa
+```
+
+---
+### UEFI - Running the ACS
+
+Run the BSA ACS
+```
+cd ~/systemready_workshop/rd-infra/
+```
+
+Recover build-scripts/build-target-bins.sh - replace acs_latest.bin with uefi.bin
+```
+./build-scripts/rdinfra/build-test-acs.sh -p rdn2 package
+export MODEL=~/systemready_workshop/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
+cd model-scripts/rdinfra/platforms/rdn2
+./run_model.sh –v ~/systemready_workshop/uefi_build/hda.img
+```
+
+```
+Select ‘Boot Manager’
+Select ’UEFI Shell’
+In the UEFI shell, input ’FS2:’
+Input ‘Bsa.efi –f acs.txt’
+```
+
+Get the ACS result
+```
+sudo mount ~/systemready_workshop/uefi_build/hda.img /mnt/bsa
+```
+The result is allocated at /mnt/bsa/acs.txt
+
+---
+### UEFI - Running the ACS
+
+
 
 
 
