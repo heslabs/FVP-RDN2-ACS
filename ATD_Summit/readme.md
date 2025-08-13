@@ -34,6 +34,8 @@ $ repo sync -c -j $(nproc) --fetch-submodules --force-sync --no-clone-bundle
 
 ---
 
+The RD N2 software stack integrates multiple software components
+
 <img width="818" height="627" alt="image" src="https://github.com/user-attachments/assets/51ce3c5e-2992-4e49-b272-688b81e74e76" />
 
 ---
