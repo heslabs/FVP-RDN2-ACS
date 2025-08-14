@@ -17,6 +17,8 @@
    * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/distro_boot.html#distro-boot
 * FVP_RD_N2: Busybox Boot
    * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/busybox_boot.html
+* FVP_RD_N2: Buildroot Boot
+   * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/buildroot_boot.html
 
 ---
 ### Software Stack
