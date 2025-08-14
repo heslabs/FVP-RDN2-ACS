@@ -74,8 +74,7 @@ Linux distributions downloads pages
 
 ---
 
-<img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/07b9e9d8-7bd7-4a3d-8d8b-93596bc60186" />
-
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/07b9e9d8-7bd7-4a3d-8d8b-93596bc60186" />
 
 ---
 
