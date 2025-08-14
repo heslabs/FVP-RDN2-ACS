@@ -36,7 +36,8 @@
 * Buildroot
    * https://github.com/buildroot/buildroot
    * https://buildroot.org/docs.html
-   * [https://buildroot.org/docs.html](https://bootlin.com/doc/training/buildroot/buildroot-slides.pdf)
+   * https://bootlin.com/doc/training/buildroot/buildroot-slides.pdf
+   * https://bootlin.com/doc/training/buildroot/buildroot-labs.pdf
      
 ---
 
