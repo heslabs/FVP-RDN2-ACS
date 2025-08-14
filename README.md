@@ -25,7 +25,9 @@
 * Trusted Firmware Test Framework
 * Grub
 * Busybox
-* Buildroot: https://github.com/buildroot/buildroot
+* Buildroot
+   * https://github.com/buildroot/buildroot
+   * https://buildroot.org/docs.html
 * ACPICA
 * Mbed TLS
 * ACS
