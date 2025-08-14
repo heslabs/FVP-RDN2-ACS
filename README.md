@@ -17,7 +17,20 @@
    * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/distro_boot.html#distro-boot
 * FVP_RD_N2: Busybox Boot
    * https://neoverse-reference-design.docs.arm.com/en/latest/features/boot/busybox_boot.html
+
+---
+### Software Stack
+
  
+* Trusted Firmware Test Framework
+* Grub
+* Busybox
+* Buildroot: https://github.com/buildroot/buildroot
+* ACPICA
+* Mbed TLS
+* ACS
+* EFI Tools
+* UEFI SCT 
      
 ---
 
