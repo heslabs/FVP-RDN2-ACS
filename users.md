@@ -18,4 +18,7 @@ $ ./run-docker.sh
 ```
 
 #### 3. Boot distro raw image (in Docker)
+```
 (docker)$ ./run-distro.sh
+```
+
