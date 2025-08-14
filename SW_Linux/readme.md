@@ -71,6 +71,14 @@ Linux distributions downloads pages
 * Debian: https://www.debian.org/distrib/netinst
 * Fedora: https://alt.fedoraproject.org/alt
 
+
+---
+
+<img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/07b9e9d8-7bd7-4a3d-8d8b-93596bc60186" />
+
+
+---
+
 Select an image for the aarch64 architecture. Which can also be named arm64. \
 The generic command to perform the installation is:
 ```
