@@ -1,18 +1,21 @@
 # Users
 
 
-### Connecting remote server
+#### Connecting remote server
 ```
 $ ssh neofvp@122.116.228.96 (Password: demo123@)
 ```
 
-### 1. Launch Dcoker
+#### 1. Launch Dcoker
 ```
 $ cd ~/labs/infra/fvp-rdn2
 $ ./run-docker.sh
 ```
 
-### 2. Boot Ubuntu (in Docker)
+#### 2. Boot Ubuntu (in Docker)
 ```
 (docker)$ ./run-ubutnu.sh
 ```
+
+#### 3. Boot distro raw image (in Docker)
+(docker)$ ./run-distro.sh
