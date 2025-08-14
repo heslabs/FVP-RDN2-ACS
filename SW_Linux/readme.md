@@ -78,7 +78,11 @@ Linux distributions downloads pages
 
 ---
 
-Select an image for the aarch64 architecture. Which can also be named arm64. \
+Select an image for the aarch64 architecture. Which can also be named arm64. 
+```
+ubuntu-24.04.3-live-server-arm64.iso
+```
+
 The generic command to perform the installation is:
 ```
 ./distro.sh -p <platform name> -i <abs_iso_image_path> -s <disk size> -a <additional_params> -n [true|false]
