@@ -70,6 +70,11 @@ Command to start the execution of the RD-N2 model to boot up to the buildroot pr
 ./boot-buildroot.sh -p rdn2 -n true
 ```
 
+```
+Login: root
+Password:
+```
+
 Command to start the execution of the RD-N2 model with networking enabled and to boot up to the buildroot prompt. Additional parameters to the model are supplied using the -a command line parameter:
 ```
 ./boot-buildroot.sh -p rdn2 -n true -a "-C board.flash0.diagnostics=1"
