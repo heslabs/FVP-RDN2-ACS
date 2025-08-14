@@ -12,7 +12,7 @@ $ cd ~/labs/infra/fvp-rdn2
 $ make docker-run
 ```
 
-### 2. Boot ubuntu (in Docker)
+### 2. Boot Ubuntu (in Docker)
 ```
 (docker)$ cd ~/labs/infra/fvp-rdn2
 (docker)$ ./run-ubutnu.sh
