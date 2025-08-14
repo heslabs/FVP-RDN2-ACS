@@ -9,7 +9,7 @@ $ ssh neofvp@122.116.228.96 (Password: demo123@)
 ### 1. Launch Dcoker
 ```
 $ cd ~/labs/infra/fvp-rdn2
-$ make docker-run
+$ ./run-docker.sh
 ```
 
 ### 2. Boot Ubuntu (in Docker)
