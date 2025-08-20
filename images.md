@@ -26,6 +26,14 @@ losetup -d $LOOP
 ```
 
 
+```
+mount ${LOOP}p1 /mnt/ubuntu-minimal 
+chroot /mnt/ubuntu-minimal /bin/bash
+grub-install --target=arm64-efi --efi-directory=/boot/efi --boot-directory=/boot --removable
+update-grub
+apt-get install grub-efi-arm64 linux-image-generic -y
+```
+
 #### Error:
 
 ```
