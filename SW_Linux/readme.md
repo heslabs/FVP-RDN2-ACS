@@ -61,6 +61,11 @@ export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 && \
     ./distro.sh -p rdn2 -d $(WORKDIR)/images/debian-12-nocloud-arm64-20250804-2194.raw
 ```
 
+
+---
+<img width="800" height="766" alt="image" src="https://github.com/user-attachments/assets/16efbeef-fd4c-468a-9596-73b0b65a0bb5" />
+
+ 
 ---
 ### Install a Linux Distribution
 
