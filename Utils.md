@@ -11,6 +11,19 @@ git restore build-target-bins.sh
 ./build-scripts/rdinfra/build-test-buildroot.sh -p rdn2 package
 ```
 
+```
+### ./build-scripts/rdinfra/build-test-buildroot.sh
+refinfra="rdinfra"
+source build-scripts/sgi/build-test-buildroot.sh
+source ./build-scripts/sgi/sgi_common_util.sh
+
+CC=${GNU_TARGET}-gcc
+CC_ARCH=$($CC -dumpmachine) 
+                if [[ $CC_ARCH != *"aarch64"* ]]; then
+
+
+```
+
 或是只build bios不build buildroot image的話，下面這兩個應該更快
 
 ```
