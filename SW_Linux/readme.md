@@ -50,15 +50,13 @@ bookworm/ >> latest >> debian-12-nocloud-arm64.raw
 Using RD-N2 as an example, set MODEL environment variable to the FVP path, and run the boot script with argument -d to the downloaded image path.
 ```
 export MODEL=<absolute/path/to/FVP/binary>
-cd model-scripts/rdinfra
-./distro.sh -p rdn2 -d <absolute/path/to/image>
+cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d <absolute/path/to/image>
 ```
 
 ### Example boot script:
 ```
 export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 && \
-    cd model-scripts/rdinfra && \
-    ./distro.sh -p rdn2 -d $(WORKDIR)/images/debian-12-nocloud-arm64-20250804-2194.raw
+cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d $(WORKDIR)/images/debian-12-nocloud-arm64-20250804-2194.raw
 ```
 
 
