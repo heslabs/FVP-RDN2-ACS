@@ -74,9 +74,6 @@ Linux distributions downloads pages
 * Debian: https://www.debian.org/distrib/netinst
 * Fedora: https://alt.fedoraproject.org/alt
 
----
-
-<img width="800" height="940" alt="image" src="https://github.com/user-attachments/assets/a35b5c86-f7b9-4c22-8851-3ba5e42b5638" />
 
 
 ---
@@ -101,6 +98,13 @@ As an example:
 export MODEL=<absolute/path/to/FVP/binary>
 cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i <absolute/path/to/iso> -s 16
 ```
+
+
+---
+#### 
+
+<img width="800" height="940" alt="image" src="https://github.com/user-attachments/assets/a35b5c86-f7b9-4c22-8851-3ba5e42b5638" />
+
 
 ---
 
