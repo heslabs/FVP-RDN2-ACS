@@ -3,6 +3,47 @@
 ---
 ### Ann 0818
 
+```
+./FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 --version
+ 
+Fast Models [11.25.23 (Apr 10 2024)]
+Copyright 2000-2024 ARM Limited.
+All Rights Reserved.
+```
+
+```
+https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms/Infrastructure%20FVPs
+```
+
+```
+i created the ubuntu image by mounting ubuntu iso image + sata image to fvp, and install the OS to sata image which is taking lots lof time. You can try this way to see if it works:
+ 
+dd if=/dev/zero of=ubuntu-minimal.img bs=1M count=20480
+LOOP=$(losetup -f --show ubuntu-minimal.img)
+parted $LOOP --script mklabel msdos
+parted $LOOP --script mkpart primary ext4 1MiB 100%
+losetup -d $LOOP
+LOOP=$(losetup -f --show -P ubuntu-minimal.img)
+mkfs.ext4 ${LOOP}p1
+mkdir -p /mnt/ubuntu-minimal
+mount ${LOOP}p1 /mnt/ubuntu-minimal
+debootstrap jammy /mnt/ubuntu-minimal http://archive.ubuntu.com/ubuntu/
+mount -t proc /proc /mnt/ubuntu-minimal/proc
+mount -t sysfs /sys /mnt/ubuntu-minimal/sys
+mount -o bind /dev /mnt/ubuntu-minimal/dev
+chroot /mnt/ubuntu-minimal /bin/bash
+apt-get update
+apt-get install grub-pc linux-image-generic systemd-sysv -y
+grub-install --target=i386-pc --recheck $LOOP
+update-grub
+exit
+umount -R /mnt/ubuntu-minimal
+losetup -d $LOOP
+ 
+ubuntu-minimal <---here you are. but I havn't test it, I can give a try after 11am meeting
+```
+
+---
 最快的方式就是把script改回來再重build…有build過的話，下面這幾個步驟應該1~2分鐘就可以跑完
 
 ```
