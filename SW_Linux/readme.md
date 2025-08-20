@@ -101,6 +101,32 @@ cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i <absolute/path/to/iso> -s 16
 
 
 ---
+### Example boot script
+```
+export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 
+cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i ${WORKDIR}/images/ubuntu-24.04.3-live-server-arm64.iso -s 16
+```
+
+```
+Login: ubuntu
+Password: ubuntu
+```
+
+* This command creates a 16GB SATA disk image, boots the selected platform software stack and starts the installation process.
+* From here on, follow the instructions of the chosen distribution installer. For more information about the installation procedure, refer online installation manuals of the chosen distribution.
+* After the installation is complete, a disk image with a random name <number>.satadisk will be created in ```model-scripts/rdinfra/``` folder. Use this disk image for booting the installed distribution.
+
+
+---
+### Example boot script
+```
+export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
+cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d fedora27.satadisk
+```
+* Boot from an existing installed disk image
+
+
+---
 #### RD-INFRA-2024.12.20
 
 <img width="800" height="940" alt="image" src="https://github.com/user-attachments/assets/a35b5c86-f7b9-4c22-8851-3ba5e42b5638" />
@@ -130,27 +156,4 @@ cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i <absolute/path/to/iso> -s 16
 
 
 ---
-### Example boot script
-```
-export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 
-cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i ${WORKDIR}/images/ubuntu-24.04.3-live-server-arm64.iso -s 16
-```
-
-```
-Login: ubuntu
-Password: ubuntu
-```
-
-* This command creates a 16GB SATA disk image, boots the selected platform software stack and starts the installation process.
-* From here on, follow the instructions of the chosen distribution installer. For more information about the installation procedure, refer online installation manuals of the chosen distribution.
-* After the installation is complete, a disk image with a random name <number>.satadisk will be created in ```model-scripts/rdinfra/``` folder. Use this disk image for booting the installed distribution.
-
-
----
-### Example boot script
-```
-export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
-cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d fedora27.satadisk
-```
-* Boot from an existing installed disk image
-
+<img width="800" height="940" alt="image" src="https://github.com/user-attachments/assets/983e53e8-b4b7-41ea-a8d3-53d497c21fe2" />
