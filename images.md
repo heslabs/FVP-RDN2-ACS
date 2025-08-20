@@ -19,6 +19,7 @@ sudo chroot /mnt/ubuntu-minimal /bin/bash
 apt-get update
 apt-get install grub-pc linux-image-generic systemd-sysv -y
 ## grub-install --target=i386-pc --recheck $LOOP
+grub-install --target=i386-pc --efi-directory=/boot/efi --boot-directory=/boot --removable
 grub-install --target=arm64-efi --efi-directory=/boot/efi --boot-directory=/boot --removable
 update-grub
 apt-get install grub-efi-arm64 linux-image-generic -y
@@ -28,6 +29,8 @@ umount -R /mnt/ubuntu-minimal
 losetup -d $LOOP
 ```
 
+---
+#### Solution:
 
 ```
 mount ${LOOP}p1 /mnt/ubuntu-minimal 
