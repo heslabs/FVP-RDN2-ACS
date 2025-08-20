@@ -37,6 +37,14 @@ update-grub
 apt-get install grub-efi-arm64 linux-image-generic -y
 ```
 
+---
+#### Error:
+```
+root@cx9:/# grub-install --target=arm64-efi --efi-directory=/boot/efi --boot-directory=/boot --removable
+grub-install: error: /usr/lib/grub/arm64-efi/modinfo.sh doesn't exist. Please specify --target or --directory.
+root@cx9:/# 
+```
+
 #### Error:
 
 ```
