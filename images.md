@@ -1,0 +1,26 @@
+# Create Ubunbtu image
+
+```
+dd if=/dev/zero of=ubuntu-minimal.img bs=1M count=20480
+LOOP=$(sudo losetup -f --show ubuntu-minimal.img)
+sudo parted $LOOP --script mklabel msdos
+sudo parted $LOOP --script mkpart primary ext4 1MiB 100%
+sudo losetup -d $LOOP
+LOOP=$(sudo losetup -f --show -P ubuntu-minimal.img)
+sudo mkfs.ext4 ${LOOP}p1
+sudo mkdir -p /mnt/ubuntu-minimal
+sudo mount ${LOOP}p1 /mnt/ubuntu-minimal
+sudo apt install debootstrap
+sudo debootstrap jammy /mnt/ubuntu-minimal http://archive.ubuntu.com/ubuntu/
+mount -t proc /proc /mnt/ubuntu-minimal/proc
+mount -t sysfs /sys /mnt/ubuntu-minimal/sys
+mount -o bind /dev /mnt/ubuntu-minimal/dev
+chroot /mnt/ubuntu-minimal /bin/bash
+apt-get update
+apt-get install grub-pc linux-image-generic systemd-sysv -y
+grub-install --target=i386-pc --recheck $LOOP
+update-grub
+exit
+umount -R /mnt/ubuntu-minimal
+losetup -d $LOOP
+```
