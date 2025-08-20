@@ -126,6 +126,12 @@ cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d fedora27.satadisk
 * Boot from an existing installed disk image
 
 
+```
+ubuntu.satadisk.ann820
+Login: root
+Password: root
+```
+
 ---
 ### RD-INFRA-2024.12.20 | Ubuntu 24.04.3 LTS 
 
