@@ -1,5 +1,21 @@
 # Utilities
 
+
+---
+### Arm GNU Toolchain Downloads
+
+Arm GNU Toolchain Downloads
+https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
+
+
+AArch64 GNU/Linux target (aarch64-none-linux-gnu)
+
+```
+arm-gnu-toolchain-14.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+wget https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+tar xf arm-gnu-toolchain-14.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
+```
+
 ---
 ### Ann 0818
 
