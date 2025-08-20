@@ -55,7 +55,7 @@ cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d <absolute/path/to/image>
 
 ### Example boot script:
 ```
-export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 && \
+export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d $(WORKDIR)/images/debian-12-nocloud-arm64-20250804-2194.raw
 ```
 
@@ -101,8 +101,8 @@ cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i <absolute/path/to/iso> -s 16
 ---
 ### Example boot script
 ```
-export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 && \
-cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i $(WORKDIR)/images/ubuntu-24.04.3-live-server-arm64.iso -s 16
+export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 
+cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i ${WORKDIR}/images/ubuntu-24.04.3-live-server-arm64.iso -s 16
 ```
 
 ```
@@ -118,7 +118,7 @@ Password: ubuntu
 ---
 ### Example boot script
 ```
-export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2 && \
+export MODEL=$(WORKDIR)/FVP_RD_N2/models/Linux64_GCC-9.3/FVP_RD_N2
 cd model-scripts/rdinfra && ./distro.sh -p rdn2 -d fedora27.satadisk
 ```
 * Boot from an existing installed disk image
