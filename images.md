@@ -12,10 +12,10 @@ sudo mkdir -p /mnt/ubuntu-minimal
 sudo mount ${LOOP}p1 /mnt/ubuntu-minimal
 sudo apt install debootstrap
 sudo debootstrap jammy /mnt/ubuntu-minimal http://archive.ubuntu.com/ubuntu/
-mount -t proc /proc /mnt/ubuntu-minimal/proc
-mount -t sysfs /sys /mnt/ubuntu-minimal/sys
-mount -o bind /dev /mnt/ubuntu-minimal/dev
-chroot /mnt/ubuntu-minimal /bin/bash
+sudo mount -t proc /proc /mnt/ubuntu-minimal/proc
+sudo mount -t sysfs /sys /mnt/ubuntu-minimal/sys
+sudo mount -o bind /dev /mnt/ubuntu-minimal/dev
+sudo chroot /mnt/ubuntu-minimal /bin/bash
 apt-get update
 apt-get install grub-pc linux-image-generic systemd-sysv -y
 grub-install --target=i386-pc --recheck $LOOP
