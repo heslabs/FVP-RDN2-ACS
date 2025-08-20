@@ -110,6 +110,24 @@ cd model-scripts/rdinfra && ./distro.sh -p rdn2 -i <absolute/path/to/iso> -s 16
 
 <img width="800" height="940" alt="image" src="https://github.com/user-attachments/assets/41e5293c-cdac-4679-967e-e69bbfb549a6" />
 
+---
+<img width="800" height="940" alt="image" src="https://github.com/user-attachments/assets/750a2442-1aa1-4f02-9166-39f11fd68e6a" />
+
+
+---
+<img width="800" height="911" alt="image" src="https://github.com/user-attachments/assets/c2196819-8274-46ad-a400-105875a19d4c" />
+
+
+---
+<img width="800" height="911" alt="image" src="https://github.com/user-attachments/assets/b68a0786-951f-4468-b231-947434f0746e" />
+
+---
+<img width="800" height="911" alt="image" src="https://github.com/user-attachments/assets/6a6a95e1-f895-48be-887a-e4065f722518" />
+
+
+---
+<img width="800" height="940" alt="image" src="https://github.com/user-attachments/assets/6d63e355-0242-4ce0-b150-325158afda9b" />
+
 
 ---
 ### Example boot script
