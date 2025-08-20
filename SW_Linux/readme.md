@@ -139,6 +139,9 @@ Password: root
 Error: RD_N2: board.virtio_net.hostbridge: Failed to setup TAP 'lo'
 ```
 
+* Configuring networks
+  * https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/
+
 ---
 ### RD-INFRA-2024.12.20 | Ubuntu 24.04.3 LTS 
 
