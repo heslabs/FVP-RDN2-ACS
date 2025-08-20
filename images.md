@@ -1,4 +1,4 @@
-# Create Ubunbtu image
+# Create Ubuntu image
 
 ```
 dd if=/dev/zero of=ubuntu-minimal.img bs=1M count=20480
