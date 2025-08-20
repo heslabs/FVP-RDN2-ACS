@@ -83,7 +83,8 @@ Linux distributions downloads pages
 
 Select an image for the aarch64 architecture. Which can also be named arm64. 
 ```
-ubuntu-24.04.3-live-server-arm64.iso
+### ubuntu-24.04.3-live-server-arm64.iso
+wget https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04.3-live-server-arm64.iso?_gl=1*20wu8u*_gcl_au*MTQ5NjY2NzAyMy4xNzU1MDk4MTc5
 ```
 
 The generic command to perform the installation is:
