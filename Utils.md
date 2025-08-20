@@ -7,8 +7,15 @@
 
 ```
 git restore build-target-bins.sh
+sudo apt install mtools
+
 ./build-scripts/rdinfra/build-test-buildroot.sh -p rdn2 build
 ./build-scripts/rdinfra/build-test-buildroot.sh -p rdn2 package
+```
+
+```
+The operation has completed successfully.
+Completed preparation of disk image for buildroot boot
 ```
 
 ```
@@ -40,6 +47,11 @@ cd model-scripts/rdinfra
 ```
 
 在uart_ap的console裡一開始會看到可以按esc
+
+
+---
+
+<img width="600" height="838" alt="image" src="https://github.com/user-attachments/assets/e3d6cc80-7651-4e6e-968a-437bac483e79" />
 
 
 ---
