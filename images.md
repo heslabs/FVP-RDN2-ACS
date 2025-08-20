@@ -24,3 +24,13 @@ exit
 umount -R /mnt/ubuntu-minimal
 losetup -d $LOOP
 ```
+
+
+#### Error:
+
+```
+root@cx9:/# grub-install --target=i386-pc --recheck $LOOP
+Installing for i386-pc platform.
+grub-install: error: install device isn't specified.
+
+```
