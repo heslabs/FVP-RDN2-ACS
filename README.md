@@ -6,6 +6,10 @@
 
 * Arm System Architectures - Version 1.0
   * https://developer.arm.com/documentation/110303
+* Building EDKII UEFI firmware for Arm Platforms - Version 1.1
+  * https://developer.arm.com/documentation/102158/0101/?lang=en
+
+
 
 ---
 ### Github
