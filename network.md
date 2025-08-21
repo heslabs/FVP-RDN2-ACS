@@ -5,6 +5,13 @@
 * Getting Started — Neoverse Reference Design Platform Software  documentation 
   * https://neoverse-reference-design.docs.arm.com/en/latest/user_guides/getting_started.html#enable-network-for-fvp-s-optional
 
+---
+#### Error
+
+```
+Error: RD_N2: board.virtio_net.hostbridge: Failed to setup TAP 'tap0'
+In file: (unknown):0
+```
 
 ---
 #### Launch script
