@@ -23,6 +23,10 @@ Error: RD_N2: board.virtio_net.hostbridge: Failed to setup TAP 'lo'
 
 ```
 ip a
+
+ip link set dev eth0 up
+ip link set dev eth0 down
+
 sudo lshw -class network
 sudo ethtool eth0
 sudo ip addr add 192.168.52.101/24 dev eth0
