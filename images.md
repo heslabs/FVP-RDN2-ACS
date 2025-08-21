@@ -7,12 +7,7 @@
 <img width="1200" height="1259" alt="image" src="https://github.com/user-attachments/assets/dc8afe25-254d-4ea7-8afc-f2ea7ea319fd" />
 
 ---
-<img width="1200" height="1259" alt="image" src="https://github.com/user-attachments/assets/25ffe626-b12c-4431-b6e8-1e837b74c872" />
-
----
 <img width="1200" height="1259" alt="image" src="https://github.com/user-attachments/assets/c06edcc3-a808-4fc7-b690-47eb59ecd10f" />
-
-
 
 ---
 <img width="1200" height="2100" alt="image" src="https://github.com/user-attachments/assets/d35aa84b-5595-44e8-841b-64289a301ca6" />
