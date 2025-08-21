@@ -4,13 +4,13 @@
 ### ubuntu-satadisk-ann821
 
 ---
-<img width="800" height="1259" alt="image" src="https://github.com/user-attachments/assets/dc8afe25-254d-4ea7-8afc-f2ea7ea319fd" />
+<img width="1200" height="1259" alt="image" src="https://github.com/user-attachments/assets/dc8afe25-254d-4ea7-8afc-f2ea7ea319fd" />
 
 ---
-<img width="800" height="1259" alt="image" src="https://github.com/user-attachments/assets/25ffe626-b12c-4431-b6e8-1e837b74c872" />
+<img width="1200" height="1259" alt="image" src="https://github.com/user-attachments/assets/25ffe626-b12c-4431-b6e8-1e837b74c872" />
 
 ---
-<img width="800" height="1259" alt="image" src="https://github.com/user-attachments/assets/c06edcc3-a808-4fc7-b690-47eb59ecd10f" />
+<img width="1200" height="1259" alt="image" src="https://github.com/user-attachments/assets/c06edcc3-a808-4fc7-b690-47eb59ecd10f" />
 
 
 
