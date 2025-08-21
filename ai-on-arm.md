@@ -21,6 +21,7 @@ python3.12 -m pip install --upgrade \
     sentencepiece
 ```
 
+#### Activate your environment using:
 ```
-## Activate your environment using: source pi5_env/bin/activate
+source pi5_env/bin/activate
 ```
