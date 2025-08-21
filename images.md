@@ -2,7 +2,7 @@
 
 
 ---
-#### ubuntu=arm64-server.img
+#### ubuntu-arm64-server.img
 
 <img width="600" height="766" alt="image" src="https://github.com/user-attachments/assets/f62e0cdd-891a-4ee0-8e56-ddd52d48df8d" />
 
