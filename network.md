@@ -18,6 +18,17 @@ sudo ip link del virbr0
 sudo systemctl disable --now libvirtd
 ```
 
+```
+re-enable
+ 
+sudo systemctl enable --now libvirtd
+sudo virsh net-start default
+sudo virsh net-autostart default
+sudo ip tuntap add dev tap0 mode tap user $(whoami)
+sudo ip link set tap0 up
+sudo ip link set tap0 master virbr0
+```
+
 
 ---
 #### Error
