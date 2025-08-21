@@ -44,3 +44,11 @@ ip address show lo
 /etc/resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
 ```
 
+---
+### Debug
+
+
+---
+<img width="1000" height="1955" alt="image" src="https://github.com/user-attachments/assets/3edc2b7f-fd97-4b43-b715-72cf01c0a5d4" />
+
+
