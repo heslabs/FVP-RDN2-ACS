@@ -51,6 +51,37 @@ ip address show lo
 ---
 ### Debug
 
+---
+#### ubuntu-arm64-server-v821 
+
+```
+iomacro_terminal_0: Listening for serial connection on port 5004
+iomacro_terminal_1: Listening for serial connection on port 5005
+terminal_s0: Listening for serial connection on port 5006
+terminal_s1: Listening for serial connection on port 5007
+terminal_0: Listening for serial connection on port 5008
+terminal_1: Listening for serial connection on port 5009
+
+Info: RD_N2: RD_N2.css.scp.ROMloader: FlashLoader: Loaded 47 kB from file '../../../../output/rdn2/rdn2/scp_romfw.bin'
+
+Info: RD_N2: RD_N2.css.mcp.ROMloader: FlashLoader: Loaded 45 kB from file '../../../../output/rdn2/rdn2/mcp_romfw.bin'
+
+Info: RD_N2: RD_N2.css.trustedBootROMloader: FlashLoader: Loaded 80 kB from file '../../../../output/rdn2/rdn2/tf-bl1.bin'
+
+Info: RD_N2: RD_N2.board.flashloader0: FlashLoader: Loaded 5 MB from file '../../../../output/rdn2/rdn2/fip-uefi.bin'
+
+Info: RD_N2: RD_N2.board.flashloader1: FlashLoader: Loaded 64 MB from file '/home/demo/labs/infra/rdn2/model-scripts/rdinfra/platforms/rdn2/nor1_flash.img'
+
+Info: RD_N2: RD_N2.board.flashloader2: FlashLoader: Loaded 64 MB from file '/home/demo/labs/infra/rdn2/model-scripts/rdinfra/platforms/rdn2/nor2_flash.img'
+
+Warning: RD_N2: RD_N2.css.cmn700: DTC support limited to register model; other capabilities beyond read/write to registers unsupported
+In file: (unknown):0
+In process: RD_N2.thread_p_128 @ 29406630 ns
+
+Info: RD_N2: board.virtio_net.hostbridge: Reconfigure TAP 'tap0'
+
+```
+
 
 ---
 <img width="1000" height="1955" alt="image" src="https://github.com/user-attachments/assets/3edc2b7f-fd97-4b43-b715-72cf01c0a5d4" />
