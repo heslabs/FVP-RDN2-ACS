@@ -4,6 +4,13 @@
 ---
 #### ubuntu-arm64-server.img
 
+<img width="600" height="766" alt="image" src="https://github.com/user-attachments/assets/59881558-15f4-486b-a936-05152ae37518" />
+
+<img width="600" height="766" alt="image" src="https://github.com/user-attachments/assets/ffa3460b-9bd1-4495-9a15-5e88e2968a58" />
+
+---
+#### ubuntu-arm64-server.img
+
 <img width="600" height="766" alt="image" src="https://github.com/user-attachments/assets/f62e0cdd-891a-4ee0-8e56-ddd52d48df8d" />
 
 ```
