@@ -8,7 +8,8 @@
   * https://developer.arm.com/documentation/110303
 * Building EDKII UEFI firmware for Arm Platforms - Version 1.1
   * https://developer.arm.com/documentation/102158/0101/?lang=en
-
+* rd-infra-2024.04.17
+  * https://neoverse-reference-design.docs.arm.com/_/downloads/en/rd-infra-2024.04.17/pdf/
 
 
 ---
