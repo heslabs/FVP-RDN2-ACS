@@ -2,6 +2,12 @@
 
 
 ---
+### Spec
+
+* Arm System Architectures - Version 1.0
+  * https://developer.arm.com/documentation/110303
+
+---
 ### Github
 
 * anncheng-arm/sample_scripts
