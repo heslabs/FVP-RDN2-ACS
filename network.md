@@ -9,6 +9,11 @@
 #### Error
 
 ```
+sudo ip tuntap add dev tap0 mode tap user $(whoami)
+ioctl(TUNSETIFF): Device or resource busy
+```
+
+```
 Error: RD_N2: board.virtio_net.hostbridge: Failed to setup TAP 'tap0'
 In file: (unknown):0
 ```
