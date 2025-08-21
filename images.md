@@ -1,5 +1,11 @@
 # Create Ubuntu image
 
+
+---
+#### ubuntu=arm64-server.img
+
+<img width="600" height="766" alt="image" src="https://github.com/user-attachments/assets/f62e0cdd-891a-4ee0-8e56-ddd52d48df8d" />
+
 ```
 dd if=/dev/zero of=ubuntu-minimal.img bs=1M count=20480
 LOOP=$(sudo losetup -f --show ubuntu-minimal.img)
