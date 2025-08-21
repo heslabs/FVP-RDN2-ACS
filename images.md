@@ -4,6 +4,10 @@
 ---
 #### ubuntu-arm64-efi.img
 
+```
+Info: RD_N2: board.virtio_net.hostbridge: Reconfigure TAP 'tap0'
+```
+
 <img width="600" height="766" alt="image" src="https://github.com/user-attachments/assets/fba8bdcf-3e83-48aa-ab39-e1c6ea87ef1b" />
 
 
