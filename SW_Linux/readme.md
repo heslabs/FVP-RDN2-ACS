@@ -135,6 +135,11 @@ Password: root
 ---
 ### Network
 
+
+```
+./distro.sh -p rdn2 -d ${WORKDIR}/../images/ubuntu.satadisk -n true -a "--parameter board.virtio_net.transport=modern --parameter disable_visualisation=true"
+```
+
 ```
 Error: RD_N2: board.virtio_net.hostbridge: Failed to setup TAP 'lo'
 ```
