@@ -6,6 +6,20 @@
   * https://neoverse-reference-design.docs.arm.com/en/latest/user_guides/getting_started.html#enable-network-for-fvp-s-optional
 
 ---
+
+```
+sudo ip link set tap0 down
+sudo ip link set tap0 nomaster
+sudo ip link del tap0
+sudo virsh net-destroy default
+sudo virsh net-autostart default --disable
+sudo ip link set virbr0 down
+sudo ip link del virbr0
+sudo systemctl disable --now libvirtd
+```
+
+
+---
 #### Error
 
 ```
