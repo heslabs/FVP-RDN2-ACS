@@ -44,8 +44,6 @@ FP32 NEON Matrix Multiplication (Size 128): 0.000149 seconds
 FP32 NEON Matrix Multiplication (Size 256): 0.001161 seconds
 FP32 NEON Matrix Multiplication (Size 512): 0.009167 seconds
 
-
-
 +-----------------------------------------------------
 | Benchmarking - int8_neon.c
 +-----------------------------------------------------
