@@ -17,6 +17,55 @@
 ```
 
 ---
+### Log
+
+```
++-----------------------------------------------------
+| Benchmarking - navie.c
++-----------------------------------------------------
+gcc -O0 -S -march=armv8-a+simd src/c/kernels/naive.c -o bin/naive.s
+gcc -O0 src/c/benchmark_naive.c -o bin/benchmark_naive -march=armv8-a+simd -lm
+./bin/benchmark_naive
+Naive Matrix Multiplication (Size 32): 0.000040 seconds
+Naive Matrix Multiplication (Size 64): 0.000317 seconds
+Naive Matrix Multiplication (Size 128): 0.002520 seconds
+Naive Matrix Multiplication (Size 256): 0.020093 seconds
+Naive Matrix Multiplication (Size 512): 0.160490 seconds
+
++-----------------------------------------------------
+| Benchmarking - fp32_neon.c
++-----------------------------------------------------
+gcc -O0 -S -march=armv8-a+simd src/c/kernels/naive.c -o bin/naive.s
+gcc -O0 src/c/benchmark_naive.c -o bin/benchmark_naive -march=armv8-a+simd -lm
+./bin/benchmark_naive
+Naive Matrix Multiplication (Size 32): 0.000040 seconds
+Naive Matrix Multiplication (Size 64): 0.000317 seconds
+Naive Matrix Multiplication (Size 128): 0.002520 seconds
+Naive Matrix Multiplication (Size 256): 0.020093 seconds
+Naive Matrix Multiplication (Size 512): 0.160490 seconds
+
++-----------------------------------------------------
+| Benchmarking - int8_neon.c
++-----------------------------------------------------
+gcc -O3 -S -march=armv8-a+simd src/c/kernels/int8_neon.c -o bin/int8_neon.s
+./bin/benchmark_fp32_neon
+FP32 NEON Matrix Multiplication (Size 32): 0.000003 seconds
+FP32 NEON Matrix Multiplication (Size 64): 0.000019 seconds
+FP32 NEON Matrix Multiplication (Size 128): 0.000149 seconds
+FP32 NEON Matrix Multiplication (Size 256): 0.001161 seconds
+FP32 NEON Matrix Multiplication (Size 512): 0.009167 seconds
+
+
+./bin/benchmark_int8_neon
+Int8 Neon Matrix Multiplication (Size 32): 0.000002 seconds
+Int8 Neon Matrix Multiplication (Size 64): 0.000010 seconds
+Int8 Neon Matrix Multiplication (Size 128): 0.000077 seconds
+Int8 Neon Matrix Multiplication (Size 256): 0.000591 seconds
+Int8 Neon Matrix Multiplication (Size 512): 0.004624 seconds
+
+```
+
+---
 ### Setup
 
 ```
