@@ -6,8 +6,12 @@
 
 ```
 apt install -y python3.12-venv
+```
+
+```
 apt install -y gh
 gh repo clone arm-university/AI-on-Arm
+git clone https://github.com/arm-university/AI-on-Arm
 ```
 
 ```
