@@ -115,4 +115,19 @@ Client-side: Ensure ForwardX11 yes (and optionally ForwardX11Trusted yes) is pre
 Connecting: When initiating the SSH connection, use the -X (or -Y for trusted forwarding) flag:
 ```
 
+```
+## container-scripts/container.sh
+
+docker run --rm \
+        ${PARAMS} \
+        --network host \
+        --env="DISPLAY" \
+        --env DISPLAY=:1 \
+        -v /tmp/.X11-unix:/tmp/.X11-unix \
+        ${ARCADE} \
+        -t \
+        -i \
+        ${IMAGE_NAME}
+```
+
 
