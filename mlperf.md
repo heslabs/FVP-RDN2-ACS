@@ -56,7 +56,7 @@ export DATA_DIR=./mlperf_inference/vision/classification_and_detection/fake_imag
 
 #### Launch mlperf testing
 ```
-cd ~/mlperf/mlperf_inference/vision/classiifcaiton_and_Detection
+cd ~/mlperf/mlperf_inference/vision/classification_and_detection
 ./run_local.sh tf resnet50 cpu
 ```
 
