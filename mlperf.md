@@ -104,7 +104,8 @@ This API was designed for TensorFlow v1. See https://www.tensorflow.org/guide/mi
 WARNING:tensorflow:From /usr/local/lib/python3.12/dist-packages/tensorflow/python/tools/optimize_for_inference_lib.py:138: remove_training_nodes (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
 Instructions for updating:
 This API was designed for TensorFlow v1. See https://www.tensorflow.org/guide/migrate for instructions on how to migrate your code to TensorFlow v2.
-
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1756004124.350247   10114 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
 ```
 
 ---
