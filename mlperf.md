@@ -84,6 +84,26 @@ docker run -it mlperf_image /bin/bash -c "./run_local.sh tf resnet50 cpu; exec b
 ### RDN2 MLPerf Results
 
 ```
+root@rdn2:~/mlperf# make run
+export MODEL_DIR=/root/mlperf/mlperf_inference/vision/classification_and_detection && \
+export DATA_DIR=/root/mlperf/mlperf_inference/vision/classification_and_detection/fake_imagenet && \
+cd ~/mlperf/mlperf_inference/vision/classification_and_detection && \
+./run_local.sh tf resnet50 cpu
+python3 python/main.py --profile resnet50-tf --model "/root/mlperf/mlperf_inference/vision/classification_and_detection/resnet50_v1.pb" --dataset-path /root/mlperf/mlperf_inference/vision/classification_and_detection/fake_imagenet --output "/root/mlperf/mlperf_inference/vision/classification_and_detection/output/tf-cpu/resnet50"
+INFO:main:Namespace(dataset='imagenet', dataset_path='/root/mlperf/mlperf_inference/vision/classification_and_detection/fake_imagenet', dataset_list=None, data_format=None, profile='resnet50-tf', scenario='SingleStream', max_batchsize=32, model='/root/mlperf/mlperf_inference/vision/classification_and_detection/resnet50_v1.pb', output='/root/mlperf/mlperf_inference/vision/classification_and_detection/output/tf-cpu/resnet50', inputs=['input_tensor:0'], outputs=['ArgMax:0'], backend='tensorflow', device=None, model_name='resnet50', threads=16, qps=None, cache=0, cache_dir=None, preprocessed_dir=None, use_preprocessed_dataset=False, accuracy=False, find_peak_performance=False, debug=False, user_conf='user.conf', audit_conf='audit.config', time=None, count=None, performance_sample_count=None, max_latency=None, samples_per_query=8)
+2025-08-24 02:55:09.584249: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-24 02:55:09.769036: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+INFO:imagenet:Preprocessing 8 images using 8 threads
+INFO:imagenet:loaded 8 images, cache=0, already_preprocessed=False, took=0.0sec
+WARNING:tensorflow:From /root/mlperf/mlperf_inference/vision/classification_and_detection/python/backend_tf.py:55: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+WARNING:tensorflow:From /usr/local/lib/python3.12/dist-packages/tensorflow/python/tools/strip_unused_lib.py:84: extract_sub_graph (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This API was designed for TensorFlow v1. See https://www.tensorflow.org/guide/migrate for instructions on how to migrate your code to TensorFlow v2.
+WARNING:tensorflow:From /usr/local/lib/python3.12/dist-packages/tensorflow/python/tools/optimize_for_inference_lib.py:138: remove_training_nodes (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This API was designed for TensorFlow v1. See https://www.tensorflow.org/guide/migrate for instructions on how to migrate your code to TensorFlow v2.
 
 ```
 
