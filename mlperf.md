@@ -24,9 +24,9 @@ cd mlperf_inference/vision/classification_and_detection
 sed -i 's/mlperf_loadgen/mlcommons_loadgen/g' setup.py
 python3 setup.py develop
 
-
 ## Install TensorFlow and TensorFlow-IO
 pip install tensorflow tensorflow-io
+pip install tensorflow tensorflow-io --break-system-packages
 
 ## Set environment variables
 export TF_ENABLE_ONEDNN_OPTS=1
