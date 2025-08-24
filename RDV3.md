@@ -131,3 +131,19 @@ docker run --rm \
 ```
 
 
+```
+demo@cx9:~/labs/infra/rdv3$  glxinfo
+name of display: localhost:13.0
+display: localhost:13  screen: 0
+direct rendering: Yes
+server glx vendor string: SGI
+server glx version string: 1.4
+```
+
+```
+demo@cx9:~/labs/infra/rdv3$ glxinfo | grep -i yes
+direct rendering: Yes
+    Unified memory: yes
+```
+
+
