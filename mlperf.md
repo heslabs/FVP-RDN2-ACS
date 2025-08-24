@@ -85,7 +85,7 @@ docker run -it mlperf_image /bin/bash -c "./run_local.sh tf resnet50 cpu; exec b
 
 
 ---
-### PRI5 MLPerf Results
+### RPI5 MLPerf Results
 
 ```
 demo@rx66h:~/mlperf$ make run
