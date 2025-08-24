@@ -66,20 +66,6 @@ export WORKDIR=${PWD}
 ```
 demo@cx9:~/labs/infra/rdv3/container-scripts$ ./container.sh -h
 Usage: ./container.sh [OPTIONS] [COMMAND]
-
-If no options are provided the script uses the default values
-defined in the 'Defaults' section.
-
-Available options are:
-  -v  <path> absolute path to mount into the container;
-  -f  <file> docker file name;
-  -i  <name> docker image name;
-  -o  overwrites a previous built image;
-  -h  displays this help message and exits;
-
-Available commands are:
-  build  builds the docker image;
-  run    runs the container in interactive mode;
 ```
 
 ---
