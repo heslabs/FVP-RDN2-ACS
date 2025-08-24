@@ -108,4 +108,11 @@ libEGL warning: DRI2: failed to authenticate
 X Error of failed request:  BadRequest (invalid request code or no such operation)
 ```
 
+```
+Incorrect X11 Forwarding Configuration:
+Server-side: Ensure X11Forwarding yes is present in /etc/ssh/sshd_config on the remote server and the SSH daemon is restarted.
+Client-side: Ensure ForwardX11 yes (and optionally ForwardX11Trusted yes) is present in ~/.ssh/config or /etc/ssh/ssh_config on the local machine.
+Connecting: When initiating the SSH connection, use the -X (or -Y for trusted forwarding) flag:
+```
+
 
