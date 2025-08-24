@@ -61,10 +61,6 @@ cd ~/mlperf/mlperf_inference/vision/classification_and_detection
 ./run_local.sh tf resnet50 cpu
 ```
 
-#### Test result
-
-``` 
-```
 
 ---
 ### Build the Docker image
@@ -83,6 +79,13 @@ Start a Docker container from the image and run the ML inference script for Tens
 docker run -it mlperf_image /bin/bash -c "./run_local.sh tf resnet50 cpu; exec bash" 
 ```
 
+
+---
+### RDN2 MLPerf Results
+
+```
+
+```
 
 ---
 ### RPI5 MLPerf Results
