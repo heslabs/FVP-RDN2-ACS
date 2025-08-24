@@ -1,7 +1,7 @@
 # MLPerf
 
 ---
-### Setup Environement
+### Setup Environment
 
 ```
 apt-get update  
