@@ -113,3 +113,70 @@ This API was designed for TensorFlow v1. See https://www.tensorflow.org/guide/mi
 INFO:main:starting TestScenario.SingleStream
 TestScenario.SingleStream qps=7.13, mean=0.1400, time=600.354, queries=4282, tiles=50.0:0.1395,80.0:0.1411,90.0:0.1421,95.0:0.1432,99.0:0.1523,99.9:0.1907
 ```
+
+
+---
+### RPI5 Log file 
+
+```
+### ~/mlperf/mlperf_inference/vision/classification_and_detection/output/tf-cpu/resnet50
+================================================
+MLPerf Results Summary
+================================================
+SUT name : PySUT
+Scenario : SingleStream
+Mode     : PerformanceOnly 
+90.0th percentile latency (ns) : 142341090
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Processed at least 64 queries (4282).
+ * Would discard 381 highest latency queries.
+ * Early stopping 90.0th percentile estimate: 142483489
+ * Early stopping 99.0th percentile estimate: 170929776
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 7.13
+QPS w/o loadgen overhead        : 7.13
+
+Min latency (ns)                : 133968450
+Max latency (ns)                : 195128903
+Mean latency (ns)               : 140157741
+50.00 percentile latency (ns)   : 139674517
+90.00 percentile latency (ns)   : 142341090
+95.00 percentile latency (ns)   : 143368221
+97.00 percentile latency (ns)   : 144165979
+99.00 percentile latency (ns)   : 154753629
+99.90 percentile latency (ns)   : 191204452
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 100
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 600000
+max_duration (ms): 0
+min_query_count : 100
+max_query_count : 0
+qsl_rng_seed : 1780908523862526354
+sample_index_rng_seed : 14771362308971278857
+schedule_rng_seed : 18209322760996052031
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+No warnings encountered during test.
+
+No errors encountered during test.
+```
