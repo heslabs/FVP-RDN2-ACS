@@ -8,6 +8,7 @@ apt-get update
 apt-get install -y build-essential python3-pip git wget && \
 rm -rf /var/lib/apt/lists/*
 pip3 install pybind11
+pip3 install pybind11 --break-system-package
 
 ## Clone the mlcommons/inference repository  
 git clone --depth 1 --recurse-submodules https://github.com/mlcommons/inference.git mlperf_inference
