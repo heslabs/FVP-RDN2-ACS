@@ -108,6 +108,12 @@ WARNING: All log messages before absl::InitializeLog() is called are written to 
 I0000 00:00:1756004124.350247   10114 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
 ```
 
+
+---
+<img width="1200" height="1446" alt="image" src="https://github.com/user-attachments/assets/e5c2f1e7-350e-4814-a656-152b09ff722e" />
+
+
+
 ---
 ### RPI5 MLPerf Results
 
