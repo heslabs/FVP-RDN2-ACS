@@ -14,7 +14,8 @@ git clone --depth 1 --recurse-submodules https://github.com/mlcommons/inference.
 
 ## # Compile and install loadgen
 cd ./mlperf_inference/loadgen
-CFLAGS="-std=c++14" python3 setup.py develop --user
+export CFLAGS="-std=c++14"
+python3 setup.py develop --user
 
 cd ./mlperf_inference/vision/classification_and_detection
 
