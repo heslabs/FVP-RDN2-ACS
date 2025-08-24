@@ -23,9 +23,9 @@
 
 
 ---
-### Getting Started
+### Getting Started
 
-* Getting Started
+* Getting Started
    * https://neoverse-reference-design.docs.arm.com/en/latest/user_guides/getting_started.html#prerequisites
 * Platform Manifest Names: pinned-rdv3.xml
    * https://neoverse-reference-design.docs.arm.com/en/latest/shared/platform_manifests.html#platform-manifests
@@ -82,13 +82,30 @@ Usage: ./container.sh [OPTIONS] [COMMAND]
 ```
 export MODEL=<absolute/path/to/FVP/binary>
 cd model-scripts/rdinfra
-./distro.sh -p rdn2 -d <absolute/path/to/image>
+./distro.sh -p rdv3 -d <absolute/path/to/image>
+```
+
+---
+#### Boot a Linux Distribution
+
+```
+export MODEL=${WORKDIR}/FVP_RD_V3
+cd model-scripts/rdinfra
+./distro.sh -p rdv3 -d ${WORKDIR}/../ubuntu.satadisk.rdv3
 ```
 
 ```
-export MODEL=${WORKDIR}/FVP_RDV3
-cd model-scripts/rdinfra
-./distro.sh -p rdv3 -d ${WORKDIR}/../ubuntu.satadisk.rdv3
+model-scripts/sgi/distro.sh
+```
+
+---
+#### Error
+
+```
+Info: RD_V3: RD_V3.css.ap_periph.ns_uart1 uart fifo capacity set as 32
+libEGL warning: DRI3: failed to query the version
+libEGL warning: DRI2: failed to authenticate
+X Error of failed request:  BadRequest (invalid request code or no such operation)
 ```
 
 
