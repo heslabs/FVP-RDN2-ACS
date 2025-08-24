@@ -46,6 +46,7 @@ export ONEDNN_DEFAULT_FPMATH_MODE=BF16
 #### Download the model file and create a fake ImageNet dataset
 
 ```
+cd mlperf_inference/vision/classification_and_detection
 wget -q https://zenodo.org/record/2535873/files/resnet50_v1.pb 
 ./tools/make_fake_imagenet.sh
     
