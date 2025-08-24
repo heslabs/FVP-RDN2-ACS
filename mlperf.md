@@ -18,9 +18,9 @@ cd ./mlperf_inference/loadgen
 export CFLAGS="-std=c++14"
 python3 setup.py develop --user
 
-cd ./mlperf_inference/vision/classification_and_detection
 
 ## Replace mlperf_loadgen with mlcommons_loadgen in setup.py to workaround module rename problem
+cd mlperf_inference/vision/classification_and_detection
 sed -i 's/mlperf_loadgen/mlcommons_loadgen/g' setup.py
 python3 setup.py develop
 
