@@ -60,6 +60,11 @@ cd ~/mlperf/mlperf_inference/vision/classiifcaiton_and_Detection
 ./run_local.sh tf resnet50 cpu
 ```
 
+#### Test result
+
+``` 
+```
+
 ---
 ### Build the Docker image
 
