@@ -50,8 +50,8 @@ wget -q https://zenodo.org/record/2535873/files/resnet50_v1.pb
 ./tools/make_fake_imagenet.sh
     
 ## Set MODEL_DIR and DATA_DIR environment variables
-export MODEL_DIR=./mlperf_inference/vision/classification_and_detection
-export DATA_DIR=./mlperf_inference/vision/classification_and_detection/fake_imagenet
+export MODEL_DIR=~/mlperf_inference/vision/classification_and_detection
+export DATA_DIR=~/mlperf_inference/vision/classification_and_detection/fake_imagenet
 ```
 
 #### Launch mlperf testing
