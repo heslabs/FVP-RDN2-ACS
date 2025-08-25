@@ -112,6 +112,8 @@ I0000 00:00:1756004124.350247   10114 mlir_graph_optimization_pass.cc:437] MLIR 
 ---
 <img width="1200" height="1446" alt="image" src="https://github.com/user-attachments/assets/e5c2f1e7-350e-4814-a656-152b09ff722e" />
 
+---
+<img width="1200" height="1574" alt="image" src="https://github.com/user-attachments/assets/6497a11c-ba5f-4894-9c6f-9c315d2df3a5" />
 
 
 ---
