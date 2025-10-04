@@ -23,9 +23,6 @@
 
 * Get started with the Neoverse Reference Design software stack
    * https://learn.arm.com/learning-paths/servers-and-cloud-computing/refinfra-quick-start/
-
----
-
 * Arm SystemReady Compliance Program
     * https://www.arm.com/architecture/system-architectures/systemready-compliance-program
 * Arm SystemReady ACS
